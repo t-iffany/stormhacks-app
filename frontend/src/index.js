@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom/client';import {
 import './index.css';
 // import App from './App';
 import Profile from './components/Profile';
+import Schedule from './components/Schedule';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     element: <Profile />,
+  },
+  {
+    path: "/schedule",
+    element: <Schedule />,
   },
 ]);
 
