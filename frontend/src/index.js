@@ -7,6 +7,7 @@ import './index.css';
 // import App from './App';
 import Profile from './components/Profile';
 import Schedule from './components/Schedule';
+import Home from './components/Home';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/schedule",
     element: <Schedule />,
+  },
+  {
+    path: "/home",
+    element: <Home />,
   },
 ]);
 
